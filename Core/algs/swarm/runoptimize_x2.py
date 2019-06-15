@@ -2,8 +2,8 @@
 # -*- coding: UTF-8 -*-
 import numpy
 
-from swarm_optimization.swarm_x2 import Swarm_X2
-from swarm_optimization.utils import printResult
+from Core.algs.swarm import Swarm_X2
+from Core.algs.swarm import printResult
 
 
 

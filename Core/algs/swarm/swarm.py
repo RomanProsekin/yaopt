@@ -6,7 +6,7 @@ from abc import ABCMeta, abstractmethod
 import numpy
 import numpy.random
 
-from swarm_optimization.particle import Particle
+from Core.algs.swarm.particle import Particle
 
 
 class Swarm (object):
@@ -22,8 +22,6 @@ class Swarm (object):
             currentVelocityRatio,
             localVelocityRatio, 
             globalVelocityRatio,
-            cov_matrix,
-            markovic_income,
             max_income,
             min_risk):
         """

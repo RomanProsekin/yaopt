@@ -1,7 +1,6 @@
-#!/usr/bin/python
 # -*- coding: UTF-8 -*-
 
-from swarm_optimization.swarm import Swarm
+from Core.algs.swarm.swarm import Swarm
 
 
 class Swarm_X2(Swarm):
